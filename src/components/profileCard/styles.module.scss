@@ -1,0 +1,46 @@
+.profileCard {
+  background: #f3f9ff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  min-height: 175px;
+
+  @media (max-width: 676px) {
+    min-height: 100px;
+  }
+}
+
+.cardImage {
+  @media (max-width: 676px) {
+    width: 100px;
+  }
+}
+
+.infoWrapper {
+  padding: 20px;
+
+  @media (max-width: 676px) {
+    padding: 10px;
+  }
+}
+
+.cardName {
+  margin: 0;
+}
+
+.nameLocalisation {
+  color: #6f728e;
+}
+
+.birthInfoWrapper {
+  margin-top: 15px;
+  font-size: 20px;
+
+  @media (max-width: 1100px) {
+    font-size: 12px;
+  }
+}
+
+.age {
+  color: #a1a3b2;
+}

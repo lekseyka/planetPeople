@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+
+  svg {
+    color: #7e42be;
+    font-size: 30px;
+  }
+
+  @media (max-width: 1199px) {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 24px);
+    flex-direction: row;
+  }
+}
