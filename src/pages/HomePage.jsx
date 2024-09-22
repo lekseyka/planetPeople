@@ -2,7 +2,7 @@ import React from 'react';
 import {Container} from "react-bootstrap";
 import ProfileCard from "../components/profileCard";
 import ContentWrapper from "../components/contentWrapper";
-import styles from './styles/homePage.module.scss';
+import styles from './styles/pages.module.scss';
 import Navigation from "../components/navigation";
 
 const HomePage = () => {

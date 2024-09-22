@@ -1,0 +1,11 @@
+.listTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.rightSide {
+  @media (max-width: 990px) {
+    display: none;
+  }
+}

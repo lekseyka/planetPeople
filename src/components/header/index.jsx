@@ -24,9 +24,11 @@ const Header = () => {
                         <div className={styles.item}>
                             EN
                         </div>
-                        <div className={styles.item}>
-                            <FontAwesomeIcon className={'fa-regular'} icon={faUser}/>
-                        </div>
+                        <Link to={'/profile'}>
+                            <div className={styles.item}>
+                                <FontAwesomeIcon className={'fa-regular'} icon={faUser}/>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </Container>

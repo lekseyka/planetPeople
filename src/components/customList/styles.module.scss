@@ -1,0 +1,50 @@
+.customList {
+  border-radius: 10px;
+  list-style: none;
+  margin-bottom: 32px;
+  max-width: 458px;
+  width: 100%;
+  border: 1px solid #a1a3b2;
+  padding: 5px 0;
+
+
+
+  li {
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+
+    &:not(:first-child) {
+      &:before {
+        background-color: rgba(15, 20, 66, .149);
+        bottom: 0;
+        content: "";
+        height: 1px;
+        position: absolute;
+        right: 50%;
+        top: 0;
+        transform: translateX(50%);
+        width: calc(100% - 30px);
+      }
+    }
+
+    &:after {
+      position: absolute;
+      top: 50%;
+      font-size: 15px;
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      content: "\276F";
+      right: 20px;
+      transform: translateY(-50%) translateX(0);
+      color: #6f728e;
+    }
+
+    svg {
+      color: #a1a3b2;
+      font-size: 15px;
+    }
+  }
+}
